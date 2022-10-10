@@ -14,4 +14,4 @@
 - Throught *count* you can manage the number of webservers as needed 
 
 #### Deployment Diagram
-![Screenshot](aws_cloud.jpg)
+![aws-cloud](./img/aws-cloud.jpg)
