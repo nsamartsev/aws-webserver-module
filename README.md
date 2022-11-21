@@ -2,10 +2,11 @@
 
 ### My personal multi-cloud modules by Terraform
 
-## Modules:
+## Modules
 ```
 ├── AWS
 │   └── aws_instance
+│   └── aws_vpc
 ├── Azure
 └── GCP
 ```
