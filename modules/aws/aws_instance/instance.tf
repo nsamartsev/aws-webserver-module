@@ -20,3 +20,11 @@ resource "aws_volume_attachment" "storate_attachment" {
   instance_id = aws_instance.my_webserver.id
   volume_id   = aws_ebs_volume.storage.id
 }
+
+output "arn" {
+  value = aws_instance.my_webserver.arn
+}
+
+output "public_ip" {
+  value = aws_instance.my_webserver.public_ip
+}
